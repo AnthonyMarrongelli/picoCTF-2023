@@ -1,0 +1,12 @@
+Description
+Every file gets a flag.
+The SOC analyst saw one image been sent back and forth between two people.
+They decided to investigate and found out that there was more than what meets the eye here.
+
+To find this flag, I first used exiftool on the png to see if it had any hidden metadata that we could use.
+I didn't really see anything out of the ordinary.
+So I then used binwalk to see if anything was hidden inside the png.
+There I found that there was a 'secret/flag.png' hidden inside the png.
+I used binwalk to extract it, and sure thing the png that was hidden inside had the flag inside of it.
+
+flag: picoCTF{Hiddinng_An_imag3_within_@n_ima9e_82101824}

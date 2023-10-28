@@ -1,0 +1,9 @@
+Description
+How to automate tasks to run at intervals on linux servers?
+Additional details will be available after launching your challenge instance.
+
+To get this flag, I SSH'd into the server that was provided and then went to the etc directory.
+From there I could see the cron files. 
+I used "cat crontab" to recieve the flag.
+
+flag: picoCTF{Sch3DUL7NG_T45K3_L1NUX_5b7059d0}
