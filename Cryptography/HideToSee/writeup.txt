@@ -1,0 +1,11 @@
+To solve this flag, we are given a jpg file.
+We are told to find the flag.
+
+First thing to do was look at the jpeg, where we see an atbash cipher.
+Not knowing what we were supposed to decrypt.
+I figured something was hidden in the jpg.
+So I used steghide to extract whatever was in there, with no passphrase.
+And it worked and yielded the flag with atbash encryption.
+After decrypting I got the flag.
+
+flag: picoCTF{atbash_crack_8a0feddc}

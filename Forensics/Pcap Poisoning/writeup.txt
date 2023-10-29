@@ -1,0 +1,10 @@
+Description
+How about some hide and seek heh?
+Download this file and find the flag.
+
+To find this flag, I opened up the pcap file in wireshark.
+I skipped past all of the FTP-DATA packets and found an interesting packet that had a request.
+Upon clicking it I saw some readable text in the metadata.
+From there I poked around a little bit more and found the flag in another packets metadata.
+
+flag: picoCTF{P64P_4N4L7S1S_SU55355FUL_0f2d7dc9}
