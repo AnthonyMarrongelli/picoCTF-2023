@@ -1,0 +1,11 @@
+Description
+How about we take you on an adventure on exploring certificate signing requests
+Take a look at this CSR file here.
+
+For this flag, I downloaded the CSR file and then used "file readmycert.csr".
+That showed me that it was a PEM certificate request.
+Using that knowledge I googled what a PEM certificate request was.
+And I found a "decoder" for such.
+Pasting the text inside the csr into the decoder gave me the flag.
+
+flag: picoCTF{read_mycert_693f7c03}

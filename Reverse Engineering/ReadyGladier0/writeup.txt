@@ -1,0 +1,9 @@
+Description
+Can you make a CoreWars warrior that always loses, no ties?
+Your opponent is the Imp. The source is available here. 
+
+For this flag, we are given a "imp.red" file that stores some ascii text.
+The text I was able to alter to make it so the "imp" wouldn't move.
+This made his lose 100% of the time and yielded the flag.
+
+flag: picoCTF{h3r0_t0_z3r0_4m1r1gh7_7c030e56}
