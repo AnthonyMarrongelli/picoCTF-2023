@@ -1,0 +1,8 @@
+Description
+You will find the flag after decrypting this file
+Download the encrypted flag here.
+
+So for this flag, the name is rotation so I'm going to assume that this has some sort of ROT cipher used to encrypt the data.
+Using a rot cipher decrypter, I was able to find that after 8 rotations we recieve the flag.
+
+flag: picoCTF{r0tat1on_d3crypt3d_949af1a1}

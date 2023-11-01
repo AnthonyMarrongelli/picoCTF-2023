@@ -1,0 +1,9 @@
+Description
+Can you make sense of this file?
+Download the file here.
+
+For this flag, we have the hints base 64 and multiple decoding.
+Using cyberchef, I placed the text that was in our enc_flag file and used "from base64" to decode the text.
+I repeated the decoding over 6 times (6 times nested), which yielded the flag.
+
+flag: picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_dfe803c6}

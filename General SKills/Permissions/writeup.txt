@@ -1,0 +1,9 @@
+Description
+Can you read files in the root file?
+Additional details will be available after launching your challenge instance.
+
+
+To get this flag I was able to use vim to escalate my priveleges to superuser.
+Using vim I was able to initiate !bin/bash, which granted me root access so I could access root where the flag was stored.
+
+flag: picoCTF{uS1ng_v1m_3dit0r_021d10ab}

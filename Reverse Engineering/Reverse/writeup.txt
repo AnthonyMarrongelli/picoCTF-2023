@@ -1,0 +1,10 @@
+Description
+Try reversing this file? Can ya?
+I forgot the password to this file. Please find it for me?
+
+To find this flag, I inspected the file that was given to us.
+It was a dynamically linked ELF file that was not stripped.
+Knowing that, I loaded up ghidra and decompiled the file.
+After looking at the main function I was able to decipher the flag as it was in the code.
+
+flag: picoCTF{3lf_r3v3r5ing_succe55ful_fa9cb3b1}
